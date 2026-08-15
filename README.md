@@ -1,174 +1,105 @@
-<div align="center">
-
 # Ramya Keerthi Kondisetty
 
-### DevOps Engineer · Site Reliability Engineer · Platform Engineer
+**AWS DevOps and SRE** · Missouri, USA
 
-**I build the infrastructure other engineers build on.**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramyakeerthikondisetty)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramyakeerthikondisetty@gmail.com)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramyakeerthikondisetty)
-[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramyakeerthikondisetty@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-keerthikondisetty-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/keerthikondisetty)
+Most of my last four years has been spent on Amazon EKS. Right now that's a payments platform for a bank, keeping about 20 Spring Boot services healthy against a 99.9% SLO while teams keep shipping into them.
 
-</div>
+I look after the Terraform that builds the AWS side, the Jenkins and Argo CD path that gets code into the clusters, and the pager that goes off when either one lets me down. Payments means PCI-DSS and SOC 2, so IAM scoping, Vault, and NetworkPolicies get worked out early instead of during an audit.
 
----
+Most of what I know about reliability came from being woken up by it. CrashLoopBackOff at 3am teaches faster than any course.
 
-## 👋 About me
+AWS Solutions Architect Associate and CKA certified.
 
-I work at the layer where infrastructure becomes a product — multi-account AWS landing zones, GitOps-managed Kubernetes, internal developer platforms, and the supply-chain and observability controls that make all of it safe to operate.
+## What I work with
 
-My approach is platform engineering with an SRE mindset:
+#### AWS
 
-- **Infrastructure as code with policy gates**, not tribal knowledge. If it isn't in Git with a review and an automated policy check, it isn't the platform.
-- **Self-service golden paths**, not ticket queues. A developer should get a governed, observable, deployed service from one form — not from a week of waiting on three teams.
-- **SLOs and error budgets**, not uptime claims. Reliability is a number you measure and spend, not an adjective.
-- **Real code, not just YAML.** Drift detectors, rightsizing engines, cost analysers, incident tooling — written in Python and Bash, tested, and packaged.
+![EKS](https://img.shields.io/badge/EKS-FF9900?style=for-the-badge&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-FF9900?style=for-the-badge&logoColor=white)
+![VPC](https://img.shields.io/badge/VPC-FF9900?style=for-the-badge&logoColor=white)
+![IAM / IRSA](https://img.shields.io/badge/IAM%20%2F%20IRSA-DD344C?style=for-the-badge&logoColor=white)
+![Aurora PostgreSQL](https://img.shields.io/badge/Aurora%20PostgreSQL-527FFF?style=for-the-badge&logoColor=white)
+![S3](https://img.shields.io/badge/S3-569A31?style=for-the-badge&logoColor=white)
+![ALB / NLB](https://img.shields.io/badge/ALB%20%2F%20NLB-8C4FFF?style=for-the-badge&logoColor=white)
+![Route 53](https://img.shields.io/badge/Route%2053-8C4FFF?style=for-the-badge&logoColor=white)
+![CloudFront](https://img.shields.io/badge/CloudFront-8C4FFF?style=for-the-badge&logoColor=white)
+![WAF](https://img.shields.io/badge/WAF-DD344C?style=for-the-badge&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logoColor=white)
+![MSK](https://img.shields.io/badge/MSK-FF9900?style=for-the-badge&logoColor=white)
+![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logoColor=white)
+![KMS](https://img.shields.io/badge/KMS-DD344C?style=for-the-badge&logoColor=white)
+![Secrets Manager](https://img.shields.io/badge/Secrets%20Manager-DD344C?style=for-the-badge&logoColor=white)
+![CodePipeline](https://img.shields.io/badge/CodePipeline-4053D6?style=for-the-badge&logoColor=white)
+![ECR](https://img.shields.io/badge/ECR-FF9900?style=for-the-badge&logoColor=white)
 
-Everything in my portfolio below is built as **one platform in layers**, where each repo consumes the ones before it — because that's how real platform teams work, and it's the part a list of unrelated tutorial repos can never show.
+#### Containers and orchestration
 
----
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Amazon EKS](https://img.shields.io/badge/Amazon%20EKS-FF9900?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Kustomize](https://img.shields.io/badge/Kustomize-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Istio](https://img.shields.io/badge/Istio-466BB0?style=for-the-badge&logo=istio&logoColor=white)
 
-## 🛠️ What I work with
+#### CI/CD, IaC and GitOps
 
-**Cloud & Infrastructure as Code**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?style=for-the-badge&logo=opentofu&logoColor=black)
-![Packer](https://img.shields.io/badge/Packer-02A8EF?style=for-the-badge&logo=packer&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-
-**CI/CD & Build**
-
+![CloudFormation](https://img.shields.io/badge/CloudFormation-FF4F8B?style=for-the-badge&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![CodePipeline](https://img.shields.io/badge/AWS%20CodePipeline-4053D6?style=for-the-badge&logoColor=white)
 ![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-![Argo Rollouts](https://img.shields.io/badge/Argo%20Rollouts-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
-![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqubeserver&logoColor=white)
-![Nexus](https://img.shields.io/badge/Nexus%20%2F%20Artifactory-41BF47?style=for-the-badge&logo=jfrog&logoColor=white)
-![Renovate](https://img.shields.io/badge/Renovate-1A1F6C?style=for-the-badge&logo=renovate&logoColor=white)
-![Make](https://img.shields.io/badge/Make-427819?style=for-the-badge&logo=gnu&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![JFrog Artifactory](https://img.shields.io/badge/JFrog%20Artifactory-41BF47?style=for-the-badge&logo=jfrog&logoColor=white)
 
-> Pipelines I build are **OIDC-federated with no static credentials**, gated on policy-as-code rather than review-by-vibes, and deliver progressively — canaries promoted or rolled back automatically on live SLIs, never on a stopwatch.
+#### Observability and reliability
 
-**Containers, Kubernetes & Packaging**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Amazon EKS](https://img.shields.io/badge/Amazon%20EKS-FF9900?style=for-the-badge&logo=kubernetes&logoColor=white)
-![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
-![Kustomize](https://img.shields.io/badge/Kustomize-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Karpenter](https://img.shields.io/badge/Karpenter-FF9900?style=for-the-badge&logoColor=white)
-![Crossplane](https://img.shields.io/badge/Crossplane-172231?style=for-the-badge&logoColor=white)
-![Cilium](https://img.shields.io/badge/Cilium%20%2F%20eBPF-F8C517?style=for-the-badge&logo=cilium&logoColor=black)
-![Backstage](https://img.shields.io/badge/Backstage-9BF0E1?style=for-the-badge&logo=backstage&logoColor=black)
-
-**Secrets Management**
-
-![Vault](https://img.shields.io/badge/HashiCorp%20Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black)
-![AWS Secrets Manager](https://img.shields.io/badge/AWS%20Secrets%20Manager-DD344C?style=for-the-badge&logoColor=white)
-![External Secrets](https://img.shields.io/badge/External%20Secrets%20Operator-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![SOPS](https://img.shields.io/badge/SOPS%20%2F%20age-4B32C3?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)
-
-> No secret is ever committed, baked into an image, or pasted into a CI variable. Workloads pull at runtime from Vault or AWS Secrets Manager; pipelines authenticate by short-lived OIDC identity, not stored keys.
-
-**Security & Supply Chain**
-
-![Sigstore](https://img.shields.io/badge/Sigstore%20%2F%20cosign-003399?style=for-the-badge&logoColor=white)
-![Kyverno](https://img.shields.io/badge/Kyverno-2E8555?style=for-the-badge&logo=kubernetes&logoColor=white)
-![OPA](https://img.shields.io/badge/OPA%20%2F%20Conftest-7D9199?style=for-the-badge&logoColor=white)
-![Trivy](https://img.shields.io/badge/Trivy%20%2F%20Grype-1904DA?style=for-the-badge&logo=trivy&logoColor=white)
-![Checkov](https://img.shields.io/badge/Checkov%20%2F%20tfsec-6D4AFF?style=for-the-badge&logoColor=white)
-![Syft](https://img.shields.io/badge/Syft%20SBOM-2C3E50?style=for-the-badge&logoColor=white)
-![gitleaks](https://img.shields.io/badge/gitleaks-C0392B?style=for-the-badge&logo=git&logoColor=white)
-
-**Observability & Reliability**
-
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Loki](https://img.shields.io/badge/Loki-F5A800?style=for-the-badge&logo=grafana&logoColor=black)
-![Tempo](https://img.shields.io/badge/Tempo-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![ELK](https://img.shields.io/badge/ELK%20Stack-005571?style=for-the-badge&logo=elasticstack&logoColor=white)
-![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
+![Dynatrace](https://img.shields.io/badge/Dynatrace-1496FF?style=for-the-badge&logo=dynatrace&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white)
 ![PagerDuty](https://img.shields.io/badge/PagerDuty-06AC38?style=for-the-badge&logo=pagerduty&logoColor=white)
+![SLO / SLI](https://img.shields.io/badge/SLO%20%2F%20SLI-4B8BBE?style=for-the-badge&logoColor=white)
 
-**Process & Collaboration**
+#### Security
 
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white)
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
+![HashiCorp Vault](https://img.shields.io/badge/Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqubeserver&logoColor=white)
+![Snyk](https://img.shields.io/badge/Snyk-4C4A73?style=for-the-badge&logo=snyk&logoColor=white)
+![Checkmarx](https://img.shields.io/badge/Checkmarx-54B848?style=for-the-badge&logo=checkmarx&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=trivy&logoColor=white)
+![RBAC](https://img.shields.io/badge/RBAC%20%2F%20NetworkPolicies-326CE5?style=for-the-badge&logoColor=white)
+![PCI-DSS](https://img.shields.io/badge/PCI--DSS%20%2F%20SOC%202-2E4053?style=for-the-badge&logoColor=white)
 
-> Change management done properly: every production change traceable from Jira ticket → pull request → pipeline run → deployed revision, with approvals and rollback recorded rather than remembered.
-
-**Languages & Systems**
+#### Scripting and languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Groovy](https://img.shields.io/badge/Groovy-4298B8?style=for-the-badge&logo=apachegroovy&logoColor=white)
+![Java](https://img.shields.io/badge/Java%20%2F%20Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux%20%2F%20RHEL-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
+
+#### Also
+
+![Azure AKS](https://img.shields.io/badge/Azure%20%2F%20AKS-0078D4?style=for-the-badge&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
+![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logoColor=white)
 
----
+## Reach me
 
-## 🚀 Platform portfolio
-
-<div align="center">
-
-[![aws-platform-foundation](https://github-readme-stats.vercel.app/api/pin/?username=keerthikondisetty&repo=aws-platform-foundation&theme=transparent&hide_border=false&border_radius=8)](https://github.com/keerthikondisetty/aws-platform-foundation)
-[![eks-gitops-platform](https://github-readme-stats.vercel.app/api/pin/?username=keerthikondisetty&repo=eks-gitops-platform&theme=transparent&hide_border=false&border_radius=8)](https://github.com/keerthikondisetty/eks-gitops-platform)
-[![idp-golden-paths](https://github-readme-stats.vercel.app/api/pin/?username=keerthikondisetty&repo=idp-golden-paths&theme=transparent&hide_border=false&border_radius=8)](https://github.com/keerthikondisetty/idp-golden-paths)
-
-</div>
-
-### 🏗️ [aws-platform-foundation](https://github.com/keerthikondisetty/aws-platform-foundation) — the ground floor
-
-A multi-account AWS landing zone in OpenTofu. AWS Organizations with OU structure, Service Control Policies for region lockdown and mandatory encryption, IAM Identity Center with zero IAM users, centralized CloudTrail/Config/GuardDuty, and a Transit Gateway hub. CI runs on **OIDC federation — no long-lived AWS keys anywhere** — with Checkov/tfsec/OPA gating every plan, and a Python Lambda detecting state drift on a schedule.
-
-### ☸️ [eks-gitops-platform](https://github.com/keerthikondisetty/eks-gitops-platform) — the substrate
-
-Production-shaped EKS where the entire cluster state is one Git repo. Karpenter spot-first compute with consolidation, Cilium in eBPF mode replacing kube-proxy, Argo CD app-of-apps, Gateway API, Kyverno admission policy, and Argo Rollouts canaries **promoted or auto-rolled-back on live Prometheus SLIs** rather than on a timer.
-
-### 🧩 [idp-golden-paths](https://github.com/keerthikondisetty/idp-golden-paths) — self-service
-
-An internal developer platform: Backstage software templates that scaffold a repo, wire CI, create the Argo CD Application and open the PR from one form; Crossplane compositions exposing `PostgresInstance`, `ObjectStore` and `Queue` as Kubernetes CRDs with encryption, backup and tagging baked in; and a weighted scorecard grading every service on ownership, SLOs, runbooks, image signing and CVEs.
-
-### 🔐 secure-supply-chain — *in progress*
-
-SLSA provenance, Sigstore keyless signing via GitHub OIDC, SPDX/CycloneDX SBOMs as OCI attestations, and Kyverno `verifyImages` rejecting any unsigned or unattested image at admission.
-
----
-
-## 🧭 What's next
-
-The platform continues in layers — an **OpenTelemetry observability stack** with SLOs as code and tail-based sampling, a **chaos and DR lab** with measured RTO/RPO, an **agentic AI SRE assistant** that triages alerts and proposes remediation as reviewable pull requests, a **FinOps control loop** that auto-opens rightsizing PRs, and a **DORA delivery-metrics** capstone measuring the whole thing.
-
----
-
-## 💭 How I think about this work
-
-> **Measured beats impressive.** I'd rather publish *"0 failed requests across 12 node rotations under 500 RPS sustained load"* than an uptime figure nobody can verify.
-
-> **Trade-offs belong in the README.** Every repo documents what I chose, what I gave up, and what I'd do differently. That section is usually more useful than the code.
-
-> **Nothing gets applied by hand.** If it isn't in Git with a review and a policy gate, it isn't the platform.
-
----
-
-<div align="center">
-
-### 📫 Let's talk
-
-Open to conversations about platform engineering, SRE and cloud infrastructure roles.
-
-[![LinkedIn](https://img.shields.io/badge/linkedin.com%2Fin%2Framyakeerthikondisetty-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramyakeerthikondisetty)
-[![Email](https://img.shields.io/badge/ramyakeerthikondisetty%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramyakeerthikondisetty@gmail.com)
-
-</div>
+[linkedin.com/in/ramyakeerthikondisetty](https://www.linkedin.com/in/ramyakeerthikondisetty) · [ramyakeerthikondisetty@gmail.com](mailto:ramyakeerthikondisetty@gmail.com)
