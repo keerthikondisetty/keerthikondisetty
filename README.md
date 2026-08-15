@@ -9,13 +9,15 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramyakeerthikondisetty)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramyakeerthikondisetty@gmail.com)
 
-I keep payments platforms up. Around a million API calls a day on EKS, a 99.9% SLO, and a domain where a long outage turns into a compliance conversation.
+### Payments infrastructure. The job is to make it boring.
 
-Most of my work is the part that makes incidents rarer and shorter. Terraform modules that took environment provisioning from days to under an hour. Shared pipeline libraries that cut deployments from half a day of babysitting to thirty minutes. Better SLIs and honest postmortems that brought MTTR down by about a third. Rightsizing and Spot that took 20% off an AWS bill.
+About a million API calls a day go through the EKS platforms I look after, and the win condition is that nobody notices. It's payments, so a bad hour stops being an engineering problem and turns into a compliance one.
 
-Regulated work means least-privilege IAM, Vault-managed secrets and NetworkPolicies have to be right before the audit rather than after it.
+Most of what I do is the unglamorous work that keeps incidents from happening in the first place. Terraform modules so a new environment takes an hour instead of a week. Shared Jenkins libraries so deploying isn't half a day of someone watching a console. Writing down what actually broke afterwards, which is the dull habit that moved MTTR about 30%.
 
-I learned most of this on call, at hours I don't recommend.
+I have opinions. Autoscaling should be uneventful. Secrets belong in Vault, not in a CI variable somebody added at 6pm on a Friday and never took out. And if it takes you more than a minute to answer "is the error budget fine?", the dashboards aren't finished.
+
+Learned most of this on call. Wouldn't trade it. Wouldn't repeat the hours either.
 
 ## Stack
 
