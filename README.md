@@ -9,11 +9,13 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramyakeerthikondisetty)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramyakeerthikondisetty@gmail.com)
 
-I build and run AWS infrastructure, mostly on Kubernetes. Terraform underneath, Jenkins and Argo CD on top, and enough Prometheus and Grafana to know something is wrong before a user tells me.
+I keep payments platforms up. Around a million API calls a day on EKS, a 99.9% SLO, and a domain where a long outage turns into a compliance conversation.
 
-Four years of that has been on EKS: cluster upgrades, autoscaling, GitOps delivery, and the on-call rotation that comes with running any of it. Most of my work has been in regulated environments, so least-privilege IAM, Vault-managed secrets and NetworkPolicies are usually settled early rather than during an audit.
+Most of my work is the part that makes incidents rarer and shorter. Terraform modules that took environment provisioning from days to under an hour. Shared pipeline libraries that cut deployments from half a day of babysitting to thirty minutes. Better SLIs and honest postmortems that brought MTTR down by about a third. Rightsizing and Spot that took 20% off an AWS bill.
 
-Most of what I know about reliability came from being woken up by it. CrashLoopBackOff at 3am teaches faster than any course.
+Regulated work means least-privilege IAM, Vault-managed secrets and NetworkPolicies have to be right before the audit rather than after it.
+
+I learned most of this on call, at hours I don't recommend.
 
 ## Stack
 
