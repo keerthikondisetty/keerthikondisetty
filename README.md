@@ -39,30 +39,52 @@ Everything in my portfolio below is built as **one platform in layers**, where e
 ![Packer](https://img.shields.io/badge/Packer-02A8EF?style=for-the-badge&logo=packer&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 
-**Kubernetes & GitOps**
+**CI/CD & Build**
 
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Argo Rollouts](https://img.shields.io/badge/Argo%20Rollouts-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
+![Nexus](https://img.shields.io/badge/Nexus%20%2F%20Artifactory-41BF47?style=for-the-badge&logo=jfrog&logoColor=white)
+![Renovate](https://img.shields.io/badge/Renovate-1A1F6C?style=for-the-badge&logo=renovate&logoColor=white)
+![Make](https://img.shields.io/badge/Make-427819?style=for-the-badge&logo=gnu&logoColor=white)
+
+> Pipelines I build are **OIDC-federated with no static credentials**, gated on policy-as-code rather than review-by-vibes, and deliver progressively — canaries promoted or rolled back automatically on live SLIs, never on a stopwatch.
+
+**Containers, Kubernetes & Packaging**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Amazon EKS](https://img.shields.io/badge/Amazon%20EKS-FF9900?style=for-the-badge&logo=amazoneks&logoColor=white)
-![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Kustomize](https://img.shields.io/badge/Kustomize-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Karpenter](https://img.shields.io/badge/Karpenter-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Crossplane](https://img.shields.io/badge/Crossplane-172231?style=for-the-badge&logo=crossplane&logoColor=white)
 ![Cilium](https://img.shields.io/badge/Cilium%20%2F%20eBPF-F8C517?style=for-the-badge&logo=cilium&logoColor=black)
 ![Backstage](https://img.shields.io/badge/Backstage-9BF0E1?style=for-the-badge&logo=backstage&logoColor=black)
 
-**CI/CD & Progressive Delivery**
+**Secrets Management**
 
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-![Argo Rollouts](https://img.shields.io/badge/Argo%20Rollouts-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
-![Kustomize](https://img.shields.io/badge/Kustomize-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Vault](https://img.shields.io/badge/HashiCorp%20Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black)
+![AWS Secrets Manager](https://img.shields.io/badge/AWS%20Secrets%20Manager-DD344C?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![External Secrets](https://img.shields.io/badge/External%20Secrets%20Operator-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![SOPS](https://img.shields.io/badge/SOPS%20%2F%20age-4B32C3?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)
+
+> No secret is ever committed, baked into an image, or pasted into a CI variable. Workloads pull at runtime from Vault or AWS Secrets Manager; pipelines authenticate by short-lived OIDC identity, not stored keys.
+
+**Security & Supply Chain**
+
+![Sigstore](https://img.shields.io/badge/Sigstore%20%2F%20cosign-003399?style=for-the-badge&logo=sigstore&logoColor=white)
+![Kyverno](https://img.shields.io/badge/Kyverno-2E8555?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![OPA](https://img.shields.io/badge/OPA%20%2F%20Conftest-7D9199?style=for-the-badge&logo=openpolicyagent&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy%20%2F%20Grype-1904DA?style=for-the-badge&logo=aquasecurity&logoColor=white)
 ![Checkov](https://img.shields.io/badge/Checkov%20%2F%20tfsec-6D4AFF?style=for-the-badge&logo=bridgecrew&logoColor=white)
-![Renovate](https://img.shields.io/badge/Renovate-1A1F6C?style=for-the-badge&logo=renovate&logoColor=white)
-![Make](https://img.shields.io/badge/Make-427819?style=for-the-badge&logo=gnu&logoColor=white)
-
-Pipelines I build are **OIDC-federated with no static credentials**, gated on policy-as-code rather than review-by-vibes, and deliver progressively — canaries promoted or rolled back automatically on live SLIs, never on a stopwatch.
+![Syft](https://img.shields.io/badge/Syft%20SBOM-2C3E50?style=for-the-badge&logo=anaconda&logoColor=white)
+![gitleaks](https://img.shields.io/badge/gitleaks-C0392B?style=for-the-badge&logo=git&logoColor=white)
 
 **Observability & Reliability**
 
@@ -70,21 +92,30 @@ Pipelines I build are **OIDC-federated with no static credentials**, gated on po
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Loki](https://img.shields.io/badge/Loki-F5A800?style=for-the-badge&logo=grafana&logoColor=black)
+![Tempo](https://img.shields.io/badge/Tempo-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![ELK](https://img.shields.io/badge/ELK%20Stack-005571?style=for-the-badge&logo=elasticstack&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white)
+![PagerDuty](https://img.shields.io/badge/PagerDuty-06AC38?style=for-the-badge&logo=pagerduty&logoColor=white)
 
-**Security & Supply Chain**
+**Process & Collaboration**
 
-![Sigstore](https://img.shields.io/badge/Sigstore%20%2F%20cosign-003399?style=for-the-badge&logo=sigstore&logoColor=white)
-![Kyverno](https://img.shields.io/badge/Kyverno-2E8555?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aqua&logoColor=white)
-![Vault](https://img.shields.io/badge/Secrets%20Mgmt-000000?style=for-the-badge&logo=vault&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white)
+![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=for-the-badge&logo=servicenow&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
 
-**Languages & Automation**
+> Change management done properly: every production change traceable from Jira ticket → pull request → pipeline run → deployed revision, with approvals and rollback recorded rather than remembered.
+
+**Languages & Systems**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ---
 
