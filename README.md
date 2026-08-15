@@ -1,13 +1,13 @@
 # Ramya Keerthi Kondisetty
 
-**AWS DevOps and SRE** · Missouri, USA
+**DevOps · SRE · Platform Engineer** · Missouri, USA
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramyakeerthikondisetty)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramyakeerthikondisetty@gmail.com)
 
-Most of my last four years has been spent on Amazon EKS. Right now that's a payments platform for a bank, keeping about 20 Spring Boot services healthy against a 99.9% SLO while teams keep shipping into them.
+I build and run AWS infrastructure, mostly on Kubernetes. Terraform underneath, Jenkins and Argo CD on top, and enough Prometheus and Grafana to know something is wrong before a user tells me.
 
-I look after the Terraform that builds the AWS side, the Jenkins and Argo CD path that gets code into the clusters, and the pager that goes off when either one lets me down. Payments means PCI-DSS and SOC 2, so IAM scoping, Vault, and NetworkPolicies get worked out early instead of during an audit.
+Four years of that has been on EKS: cluster upgrades, autoscaling, GitOps delivery, and the on-call rotation that comes with running any of it. Most of my work has been in regulated environments, so least-privilege IAM, Vault-managed secrets and NetworkPolicies are usually settled early rather than during an audit.
 
 Most of what I know about reliability came from being woken up by it. CrashLoopBackOff at 3am teaches faster than any course.
 
