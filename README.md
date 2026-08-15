@@ -11,7 +11,7 @@
 
 ### My job is to make infrastructure boring.
 
-Twenty-seven microservices on EKS, behind a mobile app that field technicians use on every job. When the platform wobbles, somebody standing in a customer's driveway can't close their ticket. That's the version of downtime I care about, not the graph.
+I'm a DevOps and SRE engineer, four years in, working across the line where platform engineering starts: the AWS underneath, the pipelines on top, and the pager for both. Twenty-seven microservices on EKS, behind a mobile app that field technicians use on every job. When the platform wobbles, somebody standing in a customer's driveway can't close their ticket. That's the version of downtime I care about, not the graph.
 
 Most of the interesting work happens long before the pager goes off. I took environment provisioning from a week to an hour with reusable Terraform, and deploys from half a day of hand-holding down to thirty minutes through GitLab CI and Argo CD. The least glamorous thing I do is write postmortems properly. It's also what moved MTTR 30%.
 
@@ -77,9 +77,9 @@ Everything else I know, I learned by getting paged for it.
 
 Also worked with: CloudFormation, Route 53, CloudFront, WAF, KMS, Secrets Manager, ECR, CodePipeline, ALB/NLB, Azure and AKS, OpenTelemetry, Dynatrace, Checkmarx, Java and Spring Boot, SQL, Maven, Gradle, Nginx, Redis, MySQL, Oracle, Bitbucket, Jira.
 
-## Repos worth a look
+## What I'm building now
 
-Things I built to try ideas that production is a bad place to try.
+Production is a bad place to experiment, so I do it here. These are the platform engineering patterns I want to be working on full time: multi-account AWS governance, GitOps at cluster scale, and infrastructure developers can serve themselves.
 
 [**eks-gitops-platform**](https://github.com/keerthikondisetty/eks-gitops-platform) — EKS where the whole cluster state lives in one Git repo. Argo CD app-of-apps, spot-first autoscaling, admission policy, and canaries that promote or roll back on live Prometheus queries.
 
