@@ -49,6 +49,21 @@ Everything in my portfolio below is built as **one platform in layers**, where e
 ![Cilium](https://img.shields.io/badge/Cilium%20%2F%20eBPF-F8C517?style=for-the-badge&logo=cilium&logoColor=black)
 ![Backstage](https://img.shields.io/badge/Backstage-9BF0E1?style=for-the-badge&logo=backstage&logoColor=black)
 
+**CI/CD & Progressive Delivery**
+
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Argo Rollouts](https://img.shields.io/badge/Argo%20Rollouts-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Kustomize](https://img.shields.io/badge/Kustomize-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![OPA](https://img.shields.io/badge/OPA%20%2F%20Conftest-7D9199?style=for-the-badge&logo=openpolicyagent&logoColor=white)
+![Checkov](https://img.shields.io/badge/Checkov%20%2F%20tfsec-6D4AFF?style=for-the-badge&logo=bridgecrew&logoColor=white)
+![Renovate](https://img.shields.io/badge/Renovate-1A1F6C?style=for-the-badge&logo=renovate&logoColor=white)
+![Make](https://img.shields.io/badge/Make-427819?style=for-the-badge&logo=gnu&logoColor=white)
+
+Pipelines I build are **OIDC-federated with no static credentials**, gated on policy-as-code rather than review-by-vibes, and deliver progressively — canaries promoted or rolled back automatically on live SLIs, never on a stopwatch.
+
 **Observability & Reliability**
 
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white)
@@ -68,8 +83,8 @@ Everything in my portfolio below is built as **one platform in layers**, where e
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
