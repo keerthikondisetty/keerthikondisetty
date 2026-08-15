@@ -11,13 +11,13 @@
 
 ### My job is to make infrastructure boring.
 
-Most recently that meant 27 microservices on EKS behind a field service mobile app. Dispatch events through Kafka all day, and people out on jobs who can't finish one if any of it stops.
+Twenty-seven microservices on EKS, behind a mobile app that field technicians use on every job. When the platform wobbles, somebody standing in a customer's driveway can't close their ticket. That's the version of downtime I care about, not the graph.
 
-Most of the work happened before the incident. Terraform modules that turned a week of environment setup into an hour. GitLab CI and Argo CD pipelines that cut deploys from half a day to thirty minutes. And the habit nobody enjoys, writing the postmortem properly, which is what pulled MTTR down about 30%.
+Most of the interesting work happens long before the pager goes off. I took environment provisioning from a week to an hour with reusable Terraform, and deploys from half a day of hand-holding down to thirty minutes through GitLab CI and Argo CD. The least glamorous thing I do is write postmortems properly. It's also what moved MTTR 30%.
 
-Secrets belong in Vault. Autoscaling should be dull. If answering "is the error budget fine?" takes more than a minute, the dashboards aren't done.
+A few things I'll argue about. Secrets belong in Vault. Autoscaling should be uneventful. And if it takes more than a minute to answer "is the error budget fine?", the dashboards aren't finished.
 
-Four years on call taught me the rest.
+Everything else I know, I learned by getting paged for it.
 
 ## Stack
 
