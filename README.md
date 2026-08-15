@@ -9,11 +9,11 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramyakeerthikondisetty)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramyakeerthikondisetty@gmail.com)
 
-### Payments infrastructure. My job is to make it boring.
+### 27 microservices behind one technician app. My job was to make it boring.
 
-A million API calls a day run through the EKS platforms I look after. On a good day nobody notices.
+I ran the EKS platform behind Charter Communications' field technician mobile app. Dispatch events moving through Kafka all day, and technicians in the field who can't close a job if any of it stops.
 
-Most of my work happens before the incident. Terraform modules that turned a week of environment setup into an hour. Jenkins libraries that cut deploys from half a day to thirty minutes. And the habit nobody enjoys, writing the postmortem properly, which is what pulled MTTR down about 30%.
+Most of the work happened before the incident. Terraform modules that turned a week of environment setup into an hour. GitLab CI and Argo CD pipelines that cut deploys from half a day to thirty minutes. And the habit nobody enjoys, writing the postmortem properly, which is what pulled MTTR down about 30%.
 
 Secrets belong in Vault. Autoscaling should be dull. If answering "is the error budget fine?" takes more than a minute, the dashboards aren't done.
 
