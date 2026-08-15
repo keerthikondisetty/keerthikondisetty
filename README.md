@@ -9,9 +9,9 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramyakeerthikondisetty)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramyakeerthikondisetty@gmail.com)
 
-### 27 microservices behind one technician app. My job was to make it boring.
+### My job is to make infrastructure boring.
 
-I ran the EKS platform behind Charter Communications' field technician mobile app. Dispatch events moving through Kafka all day, and technicians in the field who can't close a job if any of it stops.
+Most recently that meant 27 microservices on EKS behind a field service mobile app. Dispatch events through Kafka all day, and people out on jobs who can't finish one if any of it stops.
 
 Most of the work happened before the incident. Terraform modules that turned a week of environment setup into an hour. GitLab CI and Argo CD pipelines that cut deploys from half a day to thirty minutes. And the habit nobody enjoys, writing the postmortem properly, which is what pulled MTTR down about 30%.
 
