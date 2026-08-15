@@ -33,7 +33,7 @@ Everything in my portfolio below is built as **one platform in layers**, where e
 
 **Cloud & Infrastructure as Code**
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?style=for-the-badge&logo=opentofu&logoColor=black)
 ![Packer](https://img.shields.io/badge/Packer-02A8EF?style=for-the-badge&logo=packer&logoColor=white)
@@ -47,7 +47,7 @@ Everything in my portfolio below is built as **one platform in layers**, where e
 ![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
 ![Argo Rollouts](https://img.shields.io/badge/Argo%20Rollouts-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
-![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqubeserver&logoColor=white)
 ![Nexus](https://img.shields.io/badge/Nexus%20%2F%20Artifactory-41BF47?style=for-the-badge&logo=jfrog&logoColor=white)
 ![Renovate](https://img.shields.io/badge/Renovate-1A1F6C?style=for-the-badge&logo=renovate&logoColor=white)
 ![Make](https://img.shields.io/badge/Make-427819?style=for-the-badge&logo=gnu&logoColor=white)
@@ -58,19 +58,19 @@ Everything in my portfolio below is built as **one platform in layers**, where e
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Amazon EKS](https://img.shields.io/badge/Amazon%20EKS-FF9900?style=for-the-badge&logo=amazoneks&logoColor=white)
+![Amazon EKS](https://img.shields.io/badge/Amazon%20EKS-FF9900?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
 ![Kustomize](https://img.shields.io/badge/Kustomize-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Karpenter](https://img.shields.io/badge/Karpenter-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Crossplane](https://img.shields.io/badge/Crossplane-172231?style=for-the-badge&logo=crossplane&logoColor=white)
+![Karpenter](https://img.shields.io/badge/Karpenter-FF9900?style=for-the-badge&logoColor=white)
+![Crossplane](https://img.shields.io/badge/Crossplane-172231?style=for-the-badge&logoColor=white)
 ![Cilium](https://img.shields.io/badge/Cilium%20%2F%20eBPF-F8C517?style=for-the-badge&logo=cilium&logoColor=black)
 ![Backstage](https://img.shields.io/badge/Backstage-9BF0E1?style=for-the-badge&logo=backstage&logoColor=black)
 
 **Secrets Management**
 
 ![Vault](https://img.shields.io/badge/HashiCorp%20Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black)
-![AWS Secrets Manager](https://img.shields.io/badge/AWS%20Secrets%20Manager-DD344C?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![AWS Secrets Manager](https://img.shields.io/badge/AWS%20Secrets%20Manager-DD344C?style=for-the-badge&logoColor=white)
 ![External Secrets](https://img.shields.io/badge/External%20Secrets%20Operator-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![SOPS](https://img.shields.io/badge/SOPS%20%2F%20age-4B32C3?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)
 
@@ -78,12 +78,12 @@ Everything in my portfolio below is built as **one platform in layers**, where e
 
 **Security & Supply Chain**
 
-![Sigstore](https://img.shields.io/badge/Sigstore%20%2F%20cosign-003399?style=for-the-badge&logo=sigstore&logoColor=white)
+![Sigstore](https://img.shields.io/badge/Sigstore%20%2F%20cosign-003399?style=for-the-badge&logoColor=white)
 ![Kyverno](https://img.shields.io/badge/Kyverno-2E8555?style=for-the-badge&logo=kubernetes&logoColor=white)
-![OPA](https://img.shields.io/badge/OPA%20%2F%20Conftest-7D9199?style=for-the-badge&logo=openpolicyagent&logoColor=white)
-![Trivy](https://img.shields.io/badge/Trivy%20%2F%20Grype-1904DA?style=for-the-badge&logo=aquasecurity&logoColor=white)
-![Checkov](https://img.shields.io/badge/Checkov%20%2F%20tfsec-6D4AFF?style=for-the-badge&logo=bridgecrew&logoColor=white)
-![Syft](https://img.shields.io/badge/Syft%20SBOM-2C3E50?style=for-the-badge&logo=anaconda&logoColor=white)
+![OPA](https://img.shields.io/badge/OPA%20%2F%20Conftest-7D9199?style=for-the-badge&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy%20%2F%20Grype-1904DA?style=for-the-badge&logo=trivy&logoColor=white)
+![Checkov](https://img.shields.io/badge/Checkov%20%2F%20tfsec-6D4AFF?style=for-the-badge&logoColor=white)
+![Syft](https://img.shields.io/badge/Syft%20SBOM-2C3E50?style=for-the-badge&logoColor=white)
 ![gitleaks](https://img.shields.io/badge/gitleaks-C0392B?style=for-the-badge&logo=git&logoColor=white)
 
 **Observability & Reliability**
@@ -94,14 +94,13 @@ Everything in my portfolio below is built as **one platform in layers**, where e
 ![Loki](https://img.shields.io/badge/Loki-F5A800?style=for-the-badge&logo=grafana&logoColor=black)
 ![Tempo](https://img.shields.io/badge/Tempo-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![ELK](https://img.shields.io/badge/ELK%20Stack-005571?style=for-the-badge&logo=elasticstack&logoColor=white)
-![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logoColor=white)
 ![PagerDuty](https://img.shields.io/badge/PagerDuty-06AC38?style=for-the-badge&logo=pagerduty&logoColor=white)
 
 **Process & Collaboration**
 
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white)
-![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=for-the-badge&logo=servicenow&logoColor=white)
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
 
 > Change management done properly: every production change traceable from Jira ticket → pull request → pipeline run → deployed revision, with approvals and rollback recorded rather than remembered.
