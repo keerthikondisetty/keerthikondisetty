@@ -6,7 +6,8 @@
 
 **I build the infrastructure other engineers build on.**
 
-[![Email](https://img.shields.io/badge/Email-ramyakeerthikondisetty%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramyakeerthikondisetty@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramyakeerthikondisetty)
+[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramyakeerthikondisetty@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-keerthikondisetty-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/keerthikondisetty)
 
 </div>
@@ -122,6 +123,7 @@ The platform continues in layers — an **OpenTelemetry observability stack** wi
 
 Open to conversations about platform engineering, SRE and cloud infrastructure roles.
 
+[![LinkedIn](https://img.shields.io/badge/linkedin.com%2Fin%2Framyakeerthikondisetty-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramyakeerthikondisetty)
 [![Email](https://img.shields.io/badge/ramyakeerthikondisetty%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramyakeerthikondisetty@gmail.com)
 
 </div>
