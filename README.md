@@ -19,6 +19,8 @@ A few things I'll argue about. Secrets belong in Vault. Autoscaling should be un
 
 Everything else I know, I learned by getting paged for it.
 
+Right now I'm working out where AI genuinely helps in operations. The interesting version isn't a chatbot reading logs, it's an agent that correlates an alert against recent deploys, shows its evidence, and opens a pull request a human still has to approve.
+
 ## Stack
 
 #### AWS
