@@ -9,15 +9,15 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramyakeerthikondisetty)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramyakeerthikondisetty@gmail.com)
 
-### Payments infrastructure. Job is to make it boring.
+### Payments infrastructure. My job is to make it boring.
 
-Around a million API calls a day go through the EKS platforms I look after, and success means nobody noticed anything. It's payments, so one bad hour and it stops being an engineering problem, becomes a compliance meeting.
+A million API calls a day run through the EKS platforms I look after. On a good day nobody notices.
 
-Most of my work is the unglamorous part that stops incidents before they start. Terraform modules so a new environment comes up in one hour, not one full week. Shared Jenkins libraries so deploying is not one person sitting and watching the console whole afternoon. And writing down properly what actually broke, very boring habit, but that only brought MTTR down by about 30%.
+Most of my work happens before the incident. Terraform modules that turned a week of environment setup into an hour. Jenkins libraries that cut deploys from half a day to thirty minutes. And the habit nobody enjoys, writing the postmortem properly, which is what pulled MTTR down about 30%.
 
-Few things I feel strongly about. Autoscaling should be uneventful. Secrets belong in Vault, not in some CI variable somebody added 6pm Friday and never removed. If you can't tell me in one minute whether the error budget is fine, dashboards are not done yet. And jugaad is fine for a demo, not for production.
+Secrets belong in Vault. Autoscaling should be dull. If answering "is the error budget fine?" takes more than a minute, the dashboards aren't done.
 
-Learned all of this on call, mostly at 3am with cold chai. Won't trade it. Won't repeat those hours also.
+Four years on call taught me the rest.
 
 ## Stack
 
