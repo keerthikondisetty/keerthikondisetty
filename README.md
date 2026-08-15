@@ -9,15 +9,15 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramyakeerthikondisetty)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramyakeerthikondisetty@gmail.com)
 
-### Payments infrastructure. The job is to make it boring.
+### Payments infrastructure. Job is to make it boring.
 
-About a million API calls a day go through the EKS platforms I look after, and the win condition is that nobody notices. It's payments, so a bad hour stops being an engineering problem and turns into a compliance one.
+Around a million API calls a day go through the EKS platforms I look after, and success means nobody noticed anything. It's payments, so one bad hour and it stops being an engineering problem, becomes a compliance meeting.
 
-Most of what I do is the unglamorous work that keeps incidents from happening in the first place. Terraform modules so a new environment takes an hour instead of a week. Shared Jenkins libraries so deploying isn't half a day of someone watching a console. Writing down what actually broke afterwards, which is the dull habit that moved MTTR about 30%.
+Most of my work is the unglamorous part that stops incidents before they start. Terraform modules so a new environment comes up in one hour, not one full week. Shared Jenkins libraries so deploying is not one person sitting and watching the console whole afternoon. And writing down properly what actually broke, very boring habit, but that only brought MTTR down by about 30%.
 
-I have opinions. Autoscaling should be uneventful. Secrets belong in Vault, not in a CI variable somebody added at 6pm on a Friday and never took out. And if it takes you more than a minute to answer "is the error budget fine?", the dashboards aren't finished.
+Few things I feel strongly about. Autoscaling should be uneventful. Secrets belong in Vault, not in some CI variable somebody added 6pm Friday and never removed. If you can't tell me in one minute whether the error budget is fine, dashboards are not done yet. And jugaad is fine for a demo, not for production.
 
-Learned most of this on call. Wouldn't trade it. Wouldn't repeat the hours either.
+Learned all of this on call, mostly at 3am with cold chai. Won't trade it. Won't repeat those hours also.
 
 ## Stack
 
