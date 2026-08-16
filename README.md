@@ -19,10 +19,10 @@ These five repositories follow a single small service through its whole life. Ea
 
 | Repository | What it shows |
 | --- | --- |
-| [devops-demo-app](https://github.com/keerthikondisetty/devops-demo-app) | A Flask service packaged properly: multi-stage non-root container, and the same pipeline written three times for GitHub Actions, GitLab CI and Jenkins so the differences are visible side by side. |
+| [devops-demo-app](https://github.com/keerthikondisetty/devops-demo-app) | A webhook receiver and a background worker: signature verification, an idempotent queue, retries, dead-lettering and graceful shutdown on SIGTERM. The same pipeline is written three times, for GitHub Actions, GitLab CI and Jenkins, so the differences are visible side by side. |
 | [terraform-aws-infra](https://github.com/keerthikondisetty/terraform-aws-infra) | The AWS environment it runs in. VPC across two AZs, ALB, autoscaling group with no SSH, RDS reachable only from the application security group. |
-| [k8s-deploy](https://github.com/keerthikondisetty/k8s-deploy) | The same service on Kubernetes, with manifests and a Helm chart, verified by deploying to a real cluster rather than by linting the YAML. |
-| [monitoring-stack](https://github.com/keerthikondisetty/monitoring-stack) | Prometheus, Alertmanager and Grafana watching it. Four alerts, each carrying a runbook, unit tested and fired for real in CI. |
+| [k8s-deploy](https://github.com/keerthikondisetty/k8s-deploy) | The same service on Kubernetes: receiver and worker as separate Deployments, manifests and a Helm chart, verified by deploying to a real cluster rather than by linting the YAML. |
+| [monitoring-stack](https://github.com/keerthikondisetty/monitoring-stack) | Prometheus, Alertmanager and Grafana watching it. Alerts on queue *age* rather than depth, each carrying a runbook, unit tested and fired for real in CI. |
 | [aws-automation](https://github.com/keerthikondisetty/aws-automation) | The day-two chores: tag auditing and snapshot retention, built around the safeguards that make deletion survivable. |
 
 ## Also worth a look
@@ -55,6 +55,8 @@ Liveness and readiness should point at different endpoints. If liveness checks t
 A metric that cannot be computed should say so rather than report zero. An unmeasured change failure rate and a genuinely good one look identical on a dashboard, and only one of them is good news.
 
 Anything that deletes should be hard to run by accident. Dry run is the default, and a cleanup that would remove most of what it examined is more likely a bug in the filter than a real backlog.
+
+Queue alerts should be on age, not depth. A burst of a thousand that drains in a minute is a healthy system; ten stuck for an hour is an incident. Depth cannot tell those apart.
 
 ## Current focus
 
